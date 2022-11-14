@@ -1,0 +1,42 @@
+% A simple Tree
+% Author: Stefan Kottwitz
+% https://www.packtpub.com/hardware-and-creative/latex-cookbook
+\documentclass[border=10pt,convert={density=300,size=1080x800,outext=.png}]{standalone}
+%%%<
+\usepackage{verbatim}
+%%%>
+\begin{comment}
+:Title: A simple Tree
+:Tags: Trees;Cookbook
+:Author: Stefan Kottwitz
+:Slug: tree
+
+A simple tree with a style for all nodes.
+\end{comment}
+
+
+% f c a m p
+% f c a b m
+% f b
+% c b p
+% f c a m p
+
+\usepackage{tikz}
+\begin{document}
+\begin{tikzpicture}[sibling distance=6em,
+  every node/.style = {shape=rectangle, rounded corners,
+    draw, align=center,
+    top color=white, bottom color=blue!20}]]
+  \node {root}
+    child { node {f:3}
+      child { node {c:2}
+        child { node {a:2}
+           child { node {m:1} child { node {p:1} }  }
+           child { node {b:1} child { node {m:1} }  }
+         }}
+      child { node {b:1} }}
+      child { node [color=red] {c:1}
+        child { node [color=red] {b:1}
+          child { node [color=red] {p:1} } } };
+\end{tikzpicture}
+\end{document}
