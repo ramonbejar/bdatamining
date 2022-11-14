@@ -9,4 +9,4 @@ layout: mainpage
 
 The basic map/reduce operations of Apache Spark
 
-[1. Apache Spark Basics Notebook](https://github.com/ramonbejar/bdatamining/blob/main/sessions/ApacheSpark-Basics/1-ApacheSpark-BasicsReminder-py3-sshow.ipynb)
+[1. Apache Spark Basics Notebook](https://github.com/ramonbejar/bdatamining/sessions/ApacheSpark-Basics/1-ApacheSpark-BasicsReminder-py3-sshow.ipynb)
