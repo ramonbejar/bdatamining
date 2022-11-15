@@ -23,8 +23,8 @@ email: ramonbejartorres@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Data Mining Algorithms with a focus on Big Data over Apache Spark
 repository: "ramonbejar/bdatamining"
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: rrbjtt
+github_username:  ramonbejar
 
 # Build settings
 #theme: cayman@v0.2.0
