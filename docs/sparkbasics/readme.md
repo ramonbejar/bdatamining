@@ -6,8 +6,7 @@ title: 1- Apache Spark Basics
 layout: mainpage
 ---
 
-
-## The basic map/reduce operations of Apache Spark
+# The basic map/reduce operations of Apache Spark
 
 
 
