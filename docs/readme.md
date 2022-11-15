@@ -5,6 +5,8 @@
 layout: default
 ---
 
+# BData Mining Algorithms
+
 ## 1. Spark Basics
  [Spark Basics](sparkbasics/)  
 
