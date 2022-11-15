@@ -7,7 +7,7 @@ layout: mainpage
 ---
 
 
-Learning Naive Bayes Models
+# Learning Naive Bayes Models
 
 [4. Naive Bayes Models Notebook](https://github.com/ramonbejar/bdatamining/blob/main/sessions/NaiveBayes/NaiveBayesClassifiers-py3-sshow.ipynb)
 
