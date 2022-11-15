@@ -7,23 +7,16 @@ layout: default
 
 # BData Mining Algorithms
 
-## 1. Spark Basics
- [Spark Basics](sparkbasics/)  
+## [1. Spark Basics](sparkbasics/)  
 
-## 2. Mining Item Sets
- [Mining Item Sets](miningitemsets/)
+## [2. Mining Item Sets](miningitemsets/)
 
-## 3. Linear Regression
- [Linear Regression](linearregression/)
+## [3. Linear Regression](linearregression/)
 
-## 4. Naive Bayes
- [Naive Bayes](naivebayes/)
+## [4. Naive Bayes](naivebayes/)
 
-## 5. Clustering
- [Clustering](clustering/)
+## [5. Clustering](clustering/)
 
-## 6. Recommenders
- [Recommenders](recommenders/)
+## [6. Recommenders](recommenders/)
 
-## 7. PCA
-  [Recommenders](pca/)
+## [7. PCA](pca/)
