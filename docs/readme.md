@@ -5,9 +5,23 @@
 layout: default
 ---
 
-1. [Spark Basics](sparkbasics/sparkbasics.html)  
-2. [Mining Item Sets](miningitemsets/miningitemsets.html)
-3. [Linear Regression](linearregression/linearregression.html)
-4. [Naive Bayes](naivebayes/naivebayes.html)
-5. [Clustering](clustering/clustering.html)
-6. [Recommenders](recommenders/recommenders.html)
+# 1. Spark Basics
+ [Spark Basics](sparkbasics/)  
+
+# 2. Mining Item Sets
+ [Mining Item Sets](miningitemsets/)
+
+# 3. Linear Regression
+ [Linear Regression](linearregression/)
+
+# 4. Naive Bayes
+ [Naive Bayes](naivebayes/)
+
+# 5. Clustering
+ [Clustering](clustering/)
+
+# 6. Recommenders
+ [Recommenders](recommenders/)
+
+# 7. PCA
+  [Recommenders](pca/)

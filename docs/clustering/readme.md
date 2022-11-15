@@ -7,8 +7,11 @@ layout: mainpage
 ---
 
 
-Crisp and Probabilistic models for clustering
+# 5. Crisp and Probabilistic models for clustering
 
+
+## 5.1 Crisp Clustering
 [5.1. Crisp Clustering Notebook](https://github.com/ramonbejar/bdatamining/blob/main/sessions/Clustering/clusteringdata-crisp-py3-sshow.ipynb)
 
+## 5.2 Probabilistic Clustering 
 [5.2. Probabilistic Clustering Notebook](https://github.com/ramonbejar/bdatamining/blob/main/sessions/Clustering/clusteringdata-probabilistic-py3-sshow.ipynb)

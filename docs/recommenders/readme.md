@@ -7,9 +7,11 @@ layout: mainpage
 ---
 
 
-Recommender systems with latent factors and item to item comparisons
+# Recommender systems 
 
+## Recommender systems with latent factors 
 [6.1. Latent Factors Notebook](https://github.com/ramonbejar/bdatamining/blob/main/sessions/Recommenders/latentfactors-recommenders-py3-sshow.ipynb)
 
+## Recommender systems with item to item comparisons
 [6.2. Iterm to Item Comparison Notebook](https://github.com/ramonbejar/bdatamining/blob/main/sessions/Recommenders/Item-to-Items-globalfiltering-recommenders-py3-sshow.ipynb)
 
