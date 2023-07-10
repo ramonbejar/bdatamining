@@ -1,2 +1,2 @@
 #!/bin/bash
-jupyter-nbconvert --to=markdown $1
+jupyter-nbconvert --to markdown $1
