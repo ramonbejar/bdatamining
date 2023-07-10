@@ -1,5 +1,5 @@
 <link rel="stylesheet" type="text/css" href="styles/custom.css">
-<center><h1><span class="sshowtitle">Apache Spark Basics</span></h1></center>
+<center><h3><span class="sshowtitle">Apache Spark Basics</span></h3></center>
 <p> </p>
 <p> </p>
 <center><span style="color:blue; font-family:Georgia;  font-size:1em;">Ramon Béjar</span></center>
@@ -9,7 +9,9 @@
 
 <center><img src="M-UdL2.png"  width="200" alt="Italian Trulli"></center>
 
-# 1 - Using Apache Spark
+---
+
+## 1 - Using Apache Spark
 Spark applications run as independent sets of processes on a cluster, coordinated by the **SparkContext object** in your main program (called the driver program).
 
 ![Spark Architecture](http://spark.apache.org/docs/latest/img/cluster-overview.png)
@@ -24,6 +26,8 @@ Once connected, Spark acquires executors on nodes in the cluster, which are proc
 Next, it sends your application code (defined by JAR or Python files passed to SparkContext) to the executors. 
 
 Finally, SparkContext sends tasks to the executors to run.
+
+---
 
 ## Spark driver entry point: spark context
 
@@ -59,7 +63,7 @@ sc
 
 
 
-
+---
 ## Driver for working with data frames
 
 For some spark functions related to SQL like queries and data frames (RDDs with a structure of columns with types) with our data (but executed by the spark driver), we need to create a special context, called **Spark Session**, but linked to our main spark context. We use this Spark Session when we work with **spark data frames**.
@@ -96,7 +100,7 @@ sqlCtx
 
 
 
-
+---
 ## Main Spark Concepts
 
 ### Partitions
@@ -114,7 +118,7 @@ Storing that results or leaving them to compute them again has a high impact in 
 
 
  
-
+---
 ### Shuffling
 
 There are many different tasks that require **shuffling** of the data across the cluster:
@@ -146,6 +150,7 @@ An RDD can be created in **two ways**:
 1. Distributing either an external dataset or a collection of objects in the driver program
 2. Transforming one RDD (or many) to get a new one
 
+---
 ## Basic RDD transformation examples
 
 
@@ -208,7 +213,7 @@ filtered_lines.first()
     'individuum 1, 42, female, 52.9, brown, 36.9'
 
 
-
+---
 ## Persistance of an RDD
 If you want to perform more than one action with a given RDD, you can *force* to keep that RDD in memory once it has been created the first time, using the persist() function on the RDD. 
 
@@ -290,7 +295,7 @@ for l in  lines.collect():
     individuum 9, 18, male, 83.4, green, 36.6
     individuum 10, 19, male, 84.7, gray, 36.1
 
-
+---
 ## 3 - Passing functions to Spark
 
 Most of Spark’s transformations, and some of its actions, depend on passing in functions that are used by Spark to compute data.
@@ -344,7 +349,7 @@ for j in range(3):
     ['Age[years]', ' 42', ' 37', ' 29', ' 61', ' 77', ' 33', ' 32', ' 45', ' 18', ' 19']
     ['Sex', ' female', ' male', ' male', ' female', ' female', ' male', ' female', ' male', ' male', ' male']
 
-
+---
 ## 4 - Working with common Spark transformations
 Very common transformations you will likely be using are map() and filter():
 
@@ -465,6 +470,7 @@ joinByKeyRDD.collect()
 
 Yes, but if this is not what we desire, it can be fixed using aggregation!
 
+---
 ## 5 - Working with spark dataframes
 
 For working with some structure in the datasets, we can use spark dataframes, and now each element is a record with a same set of columns, where each column will have a type:
@@ -656,6 +662,7 @@ filtered.show()
 
 Well, this is almost what we wanted, except that the record for a same person appears repeated, once per every target hobby he has in his list. Ok, but this can be fixed. How?
 
+---
 ### Exercises
 
 **Exercise 1:** Map every list of words in the RDD lines_nonempty to a list of pairs (word,frequency), with one pair per every different word in the input list, and with frquency being equal to the relative frequency of the word in the input list.
